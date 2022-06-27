@@ -14,7 +14,7 @@ model Feedback{
   id String @id @default(uuid())
   type String
   comment String
-  screenshot String
+  screenshot String?
 
   @@map("feedbacks")
 }
